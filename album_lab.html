@@ -2,16 +2,109 @@
 <html>
     <head>
         <title>LAB - Album</title>
+        <style>
+            body {
+                width: 900px;
+                margin: 0 auto;
+            }
+            img {
+                display: block;
+                margin: 20px auto 0;
+            }
+            h1, h2, h3 {
+                text-align: center;
+            }
+            table, th, tr, td {
+                border: 2px solid black;
+            }
+            table {
+                width: 100%;
+                margin-bottom: 25px;
+                border-collapse: collapse;
+            }
+            table caption {
+                font-size: 1.5em;
+                margin-bottom: 5px;
+            }
+            th {
+                padding: 5px;
+                background-color: #ccc;
+            }
+            td {
+                padding: 5px 5px 5px 70px;
+            }
+        </style>
     </head>
     <body>
+        <header>
+            <img src="images/metallica-mop.jpg" alt="Master of Puppets album cover">
+        </header>
         <h1>Master of Puppets</h1>
-        <h2>Metallica</h2>
+        <a href="https://www.metallica.com/" target="_blank"><h2>Metallica</h2></a>
         <h3>Released: March 3, 1986</h3>
+        <!--
         <p>Master of Puppets is the third studio album by American heavy metal band Metallica, released on March 3, 1986 by Elektra Records</p>
-        <h2>Band Members</h2>
-        <p>James Hetfield - Guitar</p>
-        <p>Lars Ulrich - Drums</p>
-        <p>Kirk Hammett - Lead guitar</p>
-        <p>Cliff Burton - Bass guitar</p>
+        -->
+        <hr>
+        <h2>Band Members and Producers</h2>
+        <ul>
+            <li>James Hetfield - Guitar</li>
+            <li>Lars Ulrich - Drums</li>
+            <li>Kirk Hammett - Lead guitar</li>
+            <li>Cliff Burton - Bass guitar</li>
+            <li>Producer: Flemming Rasmussen</li>
+        </ul>
+        <table>
+            <caption>Tracks</caption>
+            <thead>
+                <tr>
+                    <th>Track #</th>
+                    <th>Track Title</th>
+                    <th>Track Length</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Battery</td>
+                    <td>5:13</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Master of Puppets</td>
+                    <td>8:35</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>The Thing That Should Not Be</td>
+                    <td>6:36</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Welcome Home (Sanitarium)</td>
+                    <td>6:27</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Disposable Heroes</td>
+                    <td>8:17</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Leper Messiah</td>
+                    <td>5:40</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Orion</td>
+                    <td>8:27</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Damage, Inc.</td>
+                    <td>5:31</td>
+                </tr>
+            </tbody>
+        </table>
     </body>
 </html>
