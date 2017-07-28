@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact Us Form - LAB</title>
+    </head>
+    <style>   
+        div {
+            margin-top: 20px;
+        }
+        input[type="submit"] {
+            font-size: 1.3rem;
+            border: 2px solid #000;
+            border-radius: 10px;
+            padding: 10px;
+            cursor: pointer;
+            display: block;
+            margin: 0 auto;         
+        }
+        #messagelabel, #message {
+            vertical-align: top;
+        }
+        form {
+            display: block;
+            margin: 0 auto;
+            width: 600px;
+        }
+        label, input[type="text"], select {
+            font-size: 1.3rem;
+        }
+        label:not(:last-child) {
+            display: inline-block;
+            width: 250px;
+            text-align: right;
+            margin-right: 10px;
+        }
+        #iagree {
+            width: 300px;
+            display: block;            
+            margin: 25px auto 0;
+        }
+        label:last-child {
+            margin-left: 10px;
+        }
+    </style>
+    <body>
+        <form action="#" method="POST">
+            <div>
+                <label id="firstnamelabel" for="firstname">First Name: </label>
+                <input id="firstname" name="firstname" type="text">
+            </div>
+            <div>
+                <label id="lastnamelabel" for="lastname">Last Name: </label>
+                <input id="lastname" name="lastname" type="text">
+            </div>
+            <div>
+                <label id="emailLabel" for="email">Email: </label>
+                <input id="email" name="email" type="text">
+            </div>
+            <div>
+                <label>Type of License: </label>
+                <input type="radio" name="license" value="business" checked>Business
+                <input type="radio" name="license" value="personal">Personal
+            </div>
+            <div>
+                <label>Reason: </label>
+                <select name="reasons" id="reasons">
+                    <option value="select_a_reason">Select a Reason</option>
+                    <option value="software_support">Software Support</option>
+                    <option value="hardware_support">Hardware Support</option>
+                    <option value="information_request">Information Request</option>
+                </select>
+            </div>
+            <div>
+                <label id="messagelabel" for="message">Additional Information: </label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </div>
+            <div id="iagree">                
+                <input id="agree" name="agree" type="checkbox"><label id="agreelabel" for="agree">I have read the terms of service.</label>
+            </div>
+            <div>
+                <input type="submit" value="Submit Request">
+            </div>
+        </form>
+    </body>
+</html>
