@@ -1,3 +1,7 @@
+*:focus {
+    outline: none;
+}
+
 footer {
     position: fixed;
     left: 0px;
@@ -55,4 +59,43 @@ nav a:link, nav a:visited, nav a:active {
     margin: 0 auto;
     border: 1px solid #aaa;
     padding: 0 10px;
+}
+
+input[type="submit"] {
+    font-size: 1.3rem;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+form {
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+}
+
+#additionalinfo, #additionalinfolabel {
+    vertical-align: top;
+}
+
+#additionalinfo {
+    padding: 10px;
+}
+
+label, input[type="text"], input[type="email"], input[type="tel"], select {
+    font-size: 1.3rem;
+}
+
+input[type=radio], input[type=checkbox] {
+    border: 0;
+}
+
+label:not(:last-child) {
+    display: inline-block;
+    width: 350px;
+    text-align: right;
+    margin-right: 20px;
 }
