@@ -6,6 +6,11 @@
     user-select: none;
 }
 
+h1 {
+    color: #330099;
+    letter-spacing: 5px;
+}
+
 footer {
     position: fixed;
     left: 0px;
@@ -61,7 +66,11 @@ a:hover {
 .container {
     width: 800px;
     margin: 215px auto 0 auto;
-   /* border: 1px solid #ccc; */
+}
+
+.menucontainer {
+    width: 60%;
+    margin: 215px auto 0 auto;
 }
 
 #restaurantimage {
@@ -147,4 +156,22 @@ label:not(:last-child) {
 #thursdaylabel,
 #fridaylabel {
     margin-right: 50px;
+}
+
+.menuitem {
+    text-align: center;
+    width: 350px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 1.3rem;
+    color: #CC0000;
+}
+
+.menutitle {
+    color: #CC0000;
 }
