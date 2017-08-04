@@ -2,6 +2,10 @@
     outline: none;
 }
 
+* {
+    user-select: none;
+}
+
 footer {
     position: fixed;
     left: 0px;
@@ -34,12 +38,24 @@ nav {
 }
 
 nav a {
-    margin-left: 25px;
+    margin-left: 30px;
     font-size: 1.2rem;
 }
 
-nav a:link, nav a:visited, nav a:active {
-    color: blue;
+nav a:link,
+nav a:visited,
+nav a:active {
+    font-weight: bold;
+    color: #3300FF;
+}
+
+a {
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 4px solid #330000;
 }
 
 .container {
@@ -77,7 +93,8 @@ form {
     width: 800px;
 }
 
-#additionalinfo, #additionalinfolabel {
+#additionalinfo,
+#additionalinfolabel {
     vertical-align: top;
 }
 
@@ -85,12 +102,19 @@ form {
     padding: 10px;
 }
 
-label, input[type="text"], input[type="email"], input[type="tel"], select {
-    font-size: 1.3rem;
+label,
+textarea,
+input[type="submit"] {
+    margin-top: 20px;
 }
 
-input[type=radio], input[type=checkbox] {
-    border: 0;
+label,
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    font-size: 1.3rem;
+    width: 315px;
 }
 
 label:not(:last-child) {
@@ -98,4 +122,29 @@ label:not(:last-child) {
     width: 350px;
     text-align: right;
     margin-right: 20px;
+}
+
+#havevisitednolabel,
+#havevisitedyeslabel,
+#mondaylabel,
+#tuesdaylabel,
+#wednesdaylabel,
+#thursdaylabel,
+#fridaylabel {
+    width: 0px;
+    font-size: 1.15rem;
+    padding-left: 5px;
+}
+
+#havevisitednolabel,
+#havevisitedyeslabel {
+    margin-right: 35px;
+}
+
+#mondaylabel,
+#tuesdaylabel,
+#wednesdaylabel,
+#thursdaylabel,
+#fridaylabel {
+    margin-right: 50px;
 }

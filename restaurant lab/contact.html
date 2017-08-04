@@ -41,15 +41,15 @@
                 <textarea id="additionalinfo" name="additionalinfo" id="additionalinfo" cols="40" rows="10"></textarea>
                 <br>
                 <label for="havevisited">Have you been to the restaurant?</label>
-                <input type="radio" name="havevisited" value="No" checked>No
-                <input type="radio" name="havevisited" value="Yes">Yes
+                <input id="havevisitedno" type="radio" name="havevisited" value="No" checked><label id="havevisitednolabel" for="havevisitedno">No</label>
+                <input id="havevisitedyes" type="radio" name="havevisited" value="Yes"><label id="havevisitedyeslabel" for="havevisitedyes">Yes</label>
                 <br>
                 <label for="daystocontact">Best days to contact you:</label>
-                <input class="dayofweek" type="checkbox">Mon
-                <input class="dayofweek" type="checkbox">Tue
-                <input class="dayofweek" type="checkbox">Wed
-                <input class="dayofweek" type="checkbox">Thu
-                <input class="dayofweek" type="checkbox">Fri
+                <input id="monday" type="checkbox"><label id="mondaylabel" for="monday">Mon</label>
+                <input id="tuesday" type="checkbox"><label id="tuesdaylabel" for="tuesday">Tue</label>
+                <input id="wednesday" type="checkbox"><label id="wednesdaylabel" for="wednesday">Wed</label>
+                <input id="thursday" type="checkbox"><label id="thursdaylabel" for="thursday">Thu</label>
+                <input id="friday" type="checkbox"><label id="fridaylabel" for="friday">Fri</label>
                 <br>
                 <input type="submit" value="Send Request">
             </form>
