@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave');
+
+h1, h2 {
+    font-family: 'Sedgwick Ave', cursive;
+}
+
 h1, h2, h3 {
     text-align: center;
 }
@@ -24,4 +30,15 @@ th {
 
 td {
     padding: 5px 5px 5px 70px;
+}
+
+ul {
+    font-style: italic;
+}
+
+#albumImage {
+    width: 480px;
+    height: 360px;
+    background: url('../images/metallica-mop.jpg') no-repeat;
+    margin: 20px auto 0;
 }
