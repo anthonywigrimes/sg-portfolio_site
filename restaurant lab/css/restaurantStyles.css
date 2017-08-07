@@ -1,0 +1,80 @@
+*:focus {
+    outline: none;
+}
+
+* {
+    user-select: none;
+}
+
+footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 100px;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 100px;
+    width: 100%;
+}
+
+header h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    color: #330099;
+    letter-spacing: 5px;
+}
+
+nav {
+    padding: 15px 0;
+}
+
+nav a {
+    margin-left: 30px;
+    font-size: 1.2rem;
+}
+
+nav a:link,
+nav a:visited,
+nav a:active {
+    font-weight: bold;
+    color: #3300FF;
+}
+
+a {
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 4px solid #330000;
+}
+
+.container {
+    width: 800px;
+    margin: 215px auto 0 auto;
+}
+
+/*
+#restaurantimage {
+    display: block;
+    margin: 0 auto 20px auto;
+}
+*/
+#restaurantdesc {
+    width: 380px;
+    height: 350px;
+    margin: 0 auto;
+    border: 1px solid #aaa;
+    padding: 0 10px;
+}
