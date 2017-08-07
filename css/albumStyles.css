@@ -25,15 +25,32 @@ table caption {
 
 th {
     padding: 5px;
-    background-color: #ccc;
+    background-color: #aaa;
 }
 
 td {
+    background-color: #eeee11;
+    font-style: italic;
     padding: 5px 5px 5px 70px;
 }
 
 ul {
     font-style: italic;
+}
+
+#linkdiv {
+    text-align: center;
+}
+
+#bandlink {
+    text-decoration: none;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+#bandlink:hover {
+    background-color: yellow;
+    text-decoration: underline;
 }
 
 #albumImage {
