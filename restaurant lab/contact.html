@@ -7,6 +7,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/restaurantStyles.css">
         <style>
+            .formcontainer {
+                width: 800px;
+                margin: 215px auto 0 auto;
+            }
+
             input[type="submit"] {
                 font-size: 1.3rem;
                 border: 2px solid #000;
@@ -29,6 +34,13 @@
                 width: 800px;
             }
             
+            #fullnamelabel,
+            #emaillabel,
+            #phonelabel,
+            #reasonlabel {
+                font-weight: bold;
+            }
+
             #additionalinfo,
             #additionalinfolabel {
                 vertical-align: top;
@@ -105,18 +117,18 @@
             </nav>
             <hr>
         </header>
-        <div class="container">
+        <div class="formcontainer">
             <form action="#" method="">
-                <label for="fullname">Name:</label>
+                <label id="fullnamelabel" for="fullname">Name:</label>
                 <input id="fullname" type="text" placeholder="Fullname">
                 <br>
-                <label for="email">Email:</label>
+                <label id="emaillabel" for="email">Email:</label>
                 <input id="email" type="email" placeholder="Email">
                 <br>
-                <label for="phone">Phone:</label>
+                <label id="phonelabel" for="phone">Phone:</label>
                 <input id="phone" type="tel" placeholder="800-555-5555">
                 <br>
-                <label for="reason">Reason for Inquiry:</label>
+                <label id="reasonlabel" for="reason">Reason for Inquiry:</label>
                 <select name="reason" id="reason">
                     <option value="Catering">Catering</option>
                     <option value="PrivateParty">Private Party</option>
