@@ -7,7 +7,7 @@ h1, h2 {
 h1, h2, h3 {
     text-align: center;
 }
-            
+/*
 table, th, tr, td {
     border: 2px solid black;
 }
@@ -33,7 +33,7 @@ td {
     font-style: italic;
     padding: 5px 5px 5px 70px;
 }
-
+*/
 ul {
     font-style: italic;
 }
@@ -58,4 +58,5 @@ ul {
     height: 360px;
     background: url('../images/metallica-mop.jpg') no-repeat;
     margin: 20px auto 0;
+    border-radius: 50%;
 }
