@@ -48,18 +48,22 @@ nav a {
 }
 
 nav a:link,
-nav a:visited,
-nav a:active {
-    font-weight: bold;
+nav a:active,
+{
     color: #3300FF;
 }
 
-a {
+nav a:visited {
+    color: purple;
+}
+
+nav a {
     letter-spacing: 2px;
     text-decoration: none;
 }
 
 a:hover {
+    font-weight: bold;
     border-bottom: 4px solid #330000;
 }
 
@@ -68,7 +72,6 @@ a:hover {
     margin: 215px auto 0 auto;
     background: #f2e4a6;
 }
-
 /*
 #restaurantimage {
     display: block;

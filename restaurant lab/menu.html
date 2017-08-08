@@ -10,7 +10,7 @@
             .menucontainer {
                 width: 70%;
                 margin: 215px auto 0 auto;
-                background: #ccc;
+                background: #eee;
             }
 
             .menuitem {
@@ -29,6 +29,45 @@
 
             .menutitle {
                 color: #CC0000;
+            }
+
+            .menuitem p{
+                margin: 0;
+                padding: 0;
+            }
+
+            .menuitembev {
+                width: 350px;
+                margin: 0 auto;
+            }
+
+            .menuitembev h2 {
+                text-align: center;
+                width: 350px;
+            }
+
+            #beverages tr, #beverages td, #beverages th {
+                border: 2px solid #111;
+            }
+
+            #beverages th {
+                color: #fff;
+                background-color: #f00;
+            }
+
+            #beverages td {
+                background-color: tan;
+            }
+
+            #beverages {
+                border-collapse: collapse;
+                width: 450px;
+                text-align: center;
+                font-weight: bold;
+            }
+
+            #beverages td, #beverages th {
+                padding: 5px;
             }
         </style>
     </head>
@@ -92,6 +131,36 @@
                 <p>Cole Slaw</p>
                 <p>Served with our famous thick cut french fries</p>
                 <p class="price">$7.95</p>
+            </div>
+            <br>
+            <div class="menuitembev">
+                <h2 class="menutitle">Beverages</h2>
+                <table id="beverages">
+                    <thead>
+                        <tr>
+                            <th>Beverage</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Root Beer</td>
+                            <td>$3.00</td>
+                        </tr>
+                        <tr>
+                            <td>Bottled Water</td>
+                            <td>$1.25</td>
+                        </tr>
+                        <tr>
+                            <td>Lemonade</td>
+                            <td>$1.00</td>
+                        </tr>
+                        <tr>
+                            <td>Iced Tea</td>
+                            <td>$1.25</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
         <footer>   
